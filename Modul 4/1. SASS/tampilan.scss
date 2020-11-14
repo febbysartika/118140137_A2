@@ -1,0 +1,147 @@
+$mycolour: rgb(201, 181, 216);
+$bgcolour: rgb(148, 62, 143);
+$sidebarcolour : rgb(221, 191, 218);
+$number1: 20px;
+$align1:center;
+
+.navbar {
+    width: 1350px;
+	ul {
+		list-style-type: none;
+		margin: 0;
+        padding: 0;
+		overflow: hidden;
+		background-color: $bgcolour;
+	}
+
+	li {
+		float: right;
+		margin-right: $number1;
+	}
+
+	li a {
+		display: block;
+		color: white;
+		text-align: $align1;
+		padding: 14px $number1;
+		text-decoration: none;
+	}
+
+	li a:hover {
+		background-color: $mycolour;
+	}
+}
+
+.sidebar {
+    float: left;
+    height: 350px;
+    width: 200px;
+    background-color: $sidebarcolour;
+    
+    padding: {
+        top: 10px;
+        bottom: 150px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 10px;
+        width: 150px;
+        text-align: left;
+        background-color: $sidebarcolour;
+        margin: {
+            top: 50px;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+        }
+    }
+    li{
+        
+		margin-bottom: $number1;
+        a{
+            display: block;
+            color: white;
+            padding: 10px-16px;
+            width: 150px;
+            text-decoration: none;
+        }
+    }
+    li{
+        a:hover{
+            background-color: $bgcolour;
+            color: white;
+        }
+    } 
+}
+
+.content{
+    float: right;
+    width: 1100px;
+    height: 500px;
+	background-color: white;
+    color: black;
+    
+    
+    padding: {
+        top: 10px;
+		bottom: 0px;
+    }
+    h1{
+        text-align: center;
+        color: rgb(77,0,75);
+    }
+    h3{
+        color: rgb(99,30, 96)
+    }
+    p{
+        text-align: left;
+        color: rgb(107, 45, 103)
+    }
+}
+.footer{
+    float: left;
+    width: 1350px;
+    height: 50px;
+    text-align: center;
+	background-color: rgb(193, 153, 190);
+    color: white;
+}
+
+.image{
+    float: right;
+    width: 1100px;
+    height: 500px;
+    color: rgb(77,0,75);
+    background-color: white;  
+    text-align: center; 
+}
+.contact{
+    float: right;
+    width: 1100px;
+    height: 500px;
+    color: rgb(77,0,75);
+    background-color: white;
+    text-align: center;   
+}
+.about{
+    float: right;
+    width: 1100px;
+    height: 500px;
+	background-color: white;
+    color: black;
+    
+    padding: {
+        top: 10px;
+		bottom: 0px;
+    }
+    h1{
+        text-align: center;
+        color: rgb(77,0,75);
+    }
+    h3{
+        text-align: center;
+        color: rgb(107, 45, 103)
+    }
+}
+

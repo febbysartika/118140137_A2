@@ -1,0 +1,138 @@
+.navbar {
+  width: 1350px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #943e8f;
+}
+
+.navbar li {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #c9b5d8;
+}
+
+.sidebar {
+  float: left;
+  height: 350px;
+  width: 200px;
+  background-color: #ddbfda;
+  padding-top: 10px;
+  padding-bottom: 150px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 10px;
+  width: 150px;
+  text-align: left;
+  background-color: #ddbfda;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+}
+
+.sidebar li a {
+  display: block;
+  color: white;
+  padding: -6px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #943e8f;
+  color: white;
+}
+
+.content {
+  float: right;
+  width: 1100px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.content h1 {
+  text-align: center;
+  color: #4d004b;
+}
+
+.content h3 {
+  color: #631e60;
+}
+
+.content p {
+  text-align: left;
+  color: #6b2d67;
+}
+
+.footer {
+  float: left;
+  width: 1350px;
+  height: 50px;
+  text-align: center;
+  background-color: #c199be;
+  color: white;
+}
+
+.image {
+  float: right;
+  width: 1100px;
+  height: 500px;
+  color: #4d004b;
+  background-color: white;
+  text-align: center;
+}
+
+.contact {
+  float: right;
+  width: 1100px;
+  height: 500px;
+  color: #4d004b;
+  background-color: white;
+  text-align: center;
+}
+
+.about {
+  float: right;
+  width: 1100px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.about h1 {
+  text-align: center;
+  color: #4d004b;
+}
+
+.about h3 {
+  text-align: center;
+  color: #6b2d67;
+}
+/*# sourceMappingURL=tampilan.css.map */
