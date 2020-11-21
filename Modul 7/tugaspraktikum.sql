@@ -61,10 +61,6 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nrp`, `nama`, `alamat`, `jurusan`) VALUES
-('0', '', '', '0'),
-('0', '', '', '0'),
-('0', '', '', '0'),
-('123', 'febby', 'lampung', '0'),
 ('123', 'febby', 'lampung', 'IF123'),
 ('5311', 'sartika', 'lampung', 'AKT123'),
 ('5311', 'sartika', 'lampung', 'AKT123'),
