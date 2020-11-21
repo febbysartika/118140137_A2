@@ -1,6 +1,6 @@
 <?php
 
-    include "koneksi.php";
+    include "connect.php";
 
     $dataNRP = $_GET['NRP'];
 
