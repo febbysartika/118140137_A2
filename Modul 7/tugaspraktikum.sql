@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2020 at 05:54 PM
+-- Generation Time: Nov 21, 2020 at 06:55 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `jurusan` (
   `id_jur` varchar(15) NOT NULL,
-  `nama_jurusan` varchar(50) NOT NULL
+  `nama_jurusan` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -52,7 +52,7 @@ INSERT INTO `jurusan` (`id_jur`, `nama_jurusan`) VALUES
 CREATE TABLE `mahasiswa` (
   `nrp` varchar(15) NOT NULL,
   `nama` varchar(50) NOT NULL,
-  `alamat` varchar(50) NOT NULL,
+  `alamat` varchar(100) NOT NULL,
   `jurusan` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -61,10 +61,8 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nrp`, `nama`, `alamat`, `jurusan`) VALUES
-('123', 'febby', 'lampung', 'IF123'),
-('5311', 'sartika', 'lampung', 'AKT123'),
-('5311', 'sartika', 'lampung', 'AKT123'),
-('1723', 'febby sartika', 'bandar lampung', 'IF123');
+('111', 'febby sartika', 'lampung', 'IF123'),
+('5678', 'febby', 'bandar lampung', 'IK123');
 
 --
 -- Indexes for dumped tables
@@ -75,6 +73,12 @@ INSERT INTO `mahasiswa` (`nrp`, `nama`, `alamat`, `jurusan`) VALUES
 --
 ALTER TABLE `jurusan`
   ADD PRIMARY KEY (`id_jur`);
+
+--
+-- Indexes for table `mahasiswa`
+--
+ALTER TABLE `mahasiswa`
+  ADD PRIMARY KEY (`nrp`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
