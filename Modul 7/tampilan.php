@@ -90,8 +90,8 @@
         <form action="" method="get" class="mb-5">
             <div class="form-group w-100">
                 <input type="text" name="search" placeholder="Cari Nama" value="<?php if(isset($_GET['search'])){ echo $_GET['search']; } ?>" class="form-control">
+                <input class="w-100 btn btn-primary" type="submit" value="cari">
             </div>
-            <input class="w-100 btn btn-primary" type="submit" value="cari">
         </form>
         
 </body>
