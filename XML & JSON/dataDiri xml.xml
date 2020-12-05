@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+    <awal>Febby</awal>
+    <akhir>Sartika</akhir>
+    </nama>
+    <nim>118140137</nim>
+    <usia>20</usia>
+    <cita_cita>Tubes Semester 5 Selesai :)</cita_cita>
+    <alamat>Teluk Betung Selatan</alamat>
+    <hobi>Nonton Drama</hobi>
+    <saudara>
+        <pertama>Gak punya ;)</pertama>
+    </saudara>
+    <sosialMedia>
+        <instagram>fby_zzz</instagram>
+        <github>febbysartika</github>
+    </sosialMedia>
+</dataDiri>
