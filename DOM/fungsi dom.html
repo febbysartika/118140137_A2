@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Fungsi DOM</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 class="heading">BE</h1>
+        <ul>
+            <li>Life Goes On</li>
+            <li>Blue and Gray</li>
+            <li>Dis-ease</li>
+        </ul>
+        <h2 class="heading">MOTS 7</h2>
+        <p class="">Map of The Soul 7</p>
+    </div>
+
+    <form action="post" id="comments">
+        <textarea name="comment-box"
+              id="comment-box"
+              class="box"></textarea><br>
+    </form>
+
+    <button onclick="myFunction()">Klik</button>
+
+    <p id="pilih"></p>
+
+    <script>
+        function myFunction() {
+            var title = document.getElementsByClassName("title");
+            console.log(title);
+
+            var x = document.getElementsByTagName("p");
+
+            document.querySelector(".heading").style.backgroundColor = "purple";
+            
+            var els = document.querySelectorAll(".heading, p");
+
+            var cb = document.getElementsByName("comment-box");
+            cb[0];
+        }
+        
+    </script>
+
+</body>
+
+</html>
